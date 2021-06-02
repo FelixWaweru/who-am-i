@@ -5445,7 +5445,7 @@ article.page .post-thumb a{
 .at-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #ffffff;
+  background: #1f1f1f;
   border-radius:3px;
   padding: 1em;
   box-shadow:0 1px 7px rgba(0,0,0,.01);
