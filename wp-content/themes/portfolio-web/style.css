@@ -2085,7 +2085,8 @@ a.more-link::after {
 }
 .at-gray-bg{
 	/*background: #f9f9f9;*/
-	background: #F3F8FC;
+	/* background: #F3F8FC; */
+	background: #121212;
 }
 @media only screen and (max-width: 991px) {
 	.at-widgets{
