@@ -2155,7 +2155,7 @@ a.more-link::after {
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	-o-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0s;
-	background: #fff;
+	background: #121212;
 }
 .acme-services .single-list:hover .single-item{	
 	box-shadow: 0 20px 40px rgba(0,0,0,.1);
