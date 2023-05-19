@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next build && pnpm serve out",
     "lint": "next lint",
     "blog-mdx-gen": "mediumexporter https://medium.com/p/export-your-medium-posts-to-markdown-b5ccc8cb0050 > example.mdx"
   },
@@ -24,6 +24,7 @@
     "tailwindcss": "3.3.2"
   },
   "devDependencies": {
-    "mediumexporter": "^0.1.6"
+    "mediumexporter": "^0.1.6",
+    "serve": "^14.2.0"
   }
 }

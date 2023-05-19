@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export',
-	images: { unoptimized: true }
+	output: 'export', // Creates the 'out' build folder
+	images: { 
+		unoptimized: true
+	},
+	assetPrefix: ".",
 }
 
 module.exports = nextConfig
