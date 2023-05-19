@@ -17,7 +17,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
           <Image
-            src="/next.svg"
+            src="./next.svg"
             alt="Twitter"
             className="dark:invert"
             width={50}
@@ -32,7 +32,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
           <Image
-            src="/next.svg"
+            src="./next.svg"
             alt="Twitter"
             className="dark:invert"
             width={50}
@@ -47,7 +47,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
           <Image
-            src="/next.svg"
+            src="./next.svg"
             alt="Twitter"
             className="dark:invert"
             width={50}
