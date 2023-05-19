@@ -191,12 +191,12 @@ hr {
 }
 
 .main-container .profile-bg {
-  width: 210px;
-  height: 210px;
+  width: 205px;
+  height: 205px;
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
-  background: linear-gradient(to bottom, #0070F3, #e81224);
+  background: linear-gradient(to left, #0070F3, #e81224);
   display: flex;
   justify-content: center;
   align-items: center;
