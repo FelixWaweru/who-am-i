@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <div className="main-container">
       <div className="profile-bg">
-        <Image src='/images/profile.jpeg' 
+        <Image src='./images/profile.jpeg' 
           className="profile-img" 
           width={300} 
           height={300} 
