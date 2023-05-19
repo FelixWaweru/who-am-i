@@ -11,13 +11,13 @@ const getProjects = async () => {
     return data;
 };
 
-const Projects = async () => {
+const Blog = async () => {
 
     const projectData = await getProjects();
 
     return (
-        <div className="projects-container" id="projects">
-        <h2>Projects</h2>
+        <div className="projects-container" id="blog">
+        <h2>Blog</h2>
         <div className="projects-grid">
             {projectData && projectData.map((project) => (
             <div className="project-card" key={project.id}>
@@ -38,4 +38,4 @@ const Projects = async () => {
     )
 }
 
-export default Projects;
+export default Blog;

@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Divider from './components/Divider';
+import Blog from './components/Blog';
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
           <About />
             <Divider/>
           <Skills />
+            <Divider/>
+          <Blog/>
             <Divider/>
           <Projects />
             <Divider/>

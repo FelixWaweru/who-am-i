@@ -8,7 +8,7 @@ const Skills = () => {
     <div className="skills-container">
       <h2>Skills</h2>
       <div className="grid-skills">
-        <div className="skill-card html">
+        <div className="skill-card html gradient">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
           />
