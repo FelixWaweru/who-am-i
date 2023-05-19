@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFolder
+  faBook
 } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
-const getProjects = async () => {
+const getBlogs = async () => {
     // Fetch data from local API route
-    const response = await fetch("http://localhost:3000/api/projects");
+    const response = await fetch("http://localhost:3000/api/blogs");
     const data = await response.json();
     
     return data;
@@ -13,24 +14,27 @@ const getProjects = async () => {
 
 const Blog = async () => {
 
-    const projectData = await getProjects();
+    const blogData = await getBlogs();
 
     return (
-        <div className="projects-container" id="blog">
+        <div className="blogs-container" id="blog">
         <h2>Blog</h2>
-        <div className="projects-grid">
-            {projectData && projectData.map((project) => (
-            <div className="project-card" key={project.id}>
-                <div className="project-header">
-                    <FontAwesomeIcon
-                        icon={faFolder}
-                        fontSize={35}
-                        color="#0070F3"
-                    />
-                </div>
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
+        <div className="blogs-grid">
+            {blogData && blogData.map((blog) => (
+            <div className="blog-card" key={blog.id}>
+                <Link href={blog.blogLink} target="_blank">
+                    <div className="blog-header">
+                        <FontAwesomeIcon
+                            icon={faBook}
+                            fontSize={35}
+                            color="#0070F3"
+                        />
+                    </div>
+                    <h3>{blog.title}</h3>
+                    <p>{blog.description}</p>
+                </Link>
             </div>
+            
             ))
             }
         </div>
