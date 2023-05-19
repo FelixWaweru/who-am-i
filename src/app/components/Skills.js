@@ -8,41 +8,77 @@ const Skills = () => {
     <div className="skills-container">
       <h2>Skills</h2>
       <div className="grid-skills">
-        <div className="skill-card html gradient">
+        <div className="skill-card">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
           />
-          <p>HTML</p>
+          <p>Python</p>
         </div>
-        <div className="skill-card css">
+        <div className="skill-card">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
           />
-          <p>CSS</p>
+          <p>JavaScript, TypeScript</p>
         </div>
-        <div className="skill-card js">
+        <div className="skill-card">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
           />
-          <p>JavaScript</p>
+          <p>Java</p>
         </div>
-        <div className="skill-card react">
+        <div className="skill-card">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
           />
-          <p>React</p>
+          <p>Next.JS, React</p>
         </div>
-        <div className="skill-card node">
+        <div className="skill-card">
+          <FontAwesomeIcon
+            icon={faMagnifyingGlass}
+          />
+          <p>Django, Flask</p>
+        </div>
+        <div className="skill-card">
+          <FontAwesomeIcon
+            icon={faMagnifyingGlass}
+          />
+          <p>API Development</p>
+        </div>
+        <div className="skill-card">
+          <FontAwesomeIcon
+            icon={faMagnifyingGlass}
+          />
+          <p>AWS, GCP, Vercel</p>
+        </div>
+        <div className="skill-card">
+          <FontAwesomeIcon
+            icon={faMagnifyingGlass}
+          />
+          <p>DynamoDB, MongoDB, MySQL, SQLite</p>
+        </div>
+        <div className="skill-card">
+          <FontAwesomeIcon
+            icon={faMagnifyingGlass}
+          />
+          <p>GraphQL</p>
+        </div>
+        <div className="skill-card">
+          <FontAwesomeIcon
+            icon={faMagnifyingGlass}
+          />
+          <p>Markdown, MDX</p>
+        </div>
+        <div className="skill-card">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
           />
           <p>Node</p>
         </div>
-        <div className="skill-card python">
+        <div className="skill-card">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
           />
-          <p>Python</p>
+          <p>Svelte</p>
         </div>
       </div>
     </div>

@@ -3,38 +3,45 @@ import { NextResponse } from "next/server";
 const projectData = [
   {
     id: 1,
-    title: 'Todo List App',
+    title: 'Elevenlabs NPM Package',
     description:
-      'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-    gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
+      'A JavaScript based, open source NPM package that wraps around the Elevenlabs public API and is used to convert text to speech.',
+    gitHubLink: 'https://www.npmjs.com/package/elevenlabs-node',
   },
   {
     id: 2,
-    title: 'Books Library App',
+    title: 'TiktokChatGPT',
     description:
-      'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are either currently reading or have finished reading.',
-    gitHubLink: 'https://github.com/olawanlejoel/Book-Library',
+      'This is a conversational bot for tiktok livestreams built on ChatGPT. It uses the OpenAI API to generate responses, turns the responses into a vocal audio response and then responds to live stream events using the generated audio.',
+    gitHubLink: 'https://github.com/FelixWaweru/TiktokChatGPT',
   },
   {
     id: 3,
-    title: 'Quotes Generator',
+    title: 'M-Kono Prosthetic Hand',
     description:
-      'Helps you generate quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.',
-    gitHubLink: 'https://github.com/olawanlejoel/random-quote-generator',
+      'A prosthetic hand controlled using an Android Application and an Arduino board. The project entailed receiving and interpreting vocal user commands using an Android application and converting it into hand motions using an Arduino board, servos and a 3D printed prosthetic hand. It was developed for my fourth year project.',
+    gitHubLink: 'https://github.com/FelixWaweru/M-Kono',
   },
   {
     id: 4,
-    title: 'Password Generator',
+    title: 'MHENGA',
     description:
-      'Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.',
-    gitHubLink: 'https://github.com/olawanlejoel/Password-Generator',
+      'In celebration of Black History Month for the year 2021, I developed a project that would allow me to share part of my African culture with more people online. Black History Month being an annual celebration remembering AfricanAmerican history and the African diaspora, I decided to create a Twitter bot that shares Swahili proverbs and their translations as tweets. In the spirit of staying authentic to my roots, I chose to create the bot using a Swahili programming language called Swahili-lang and a little bit of JavaScript to help with the tweet posting.',
+    gitHubLink: 'https://github.com/FelixWaweru/MHENGA',
   },
   {
     id: 5,
-    title: 'Twitter UI Clone',
+    title: 'Compliment Bot',
     description:
-      'Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the homepage of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.',
-    gitHubLink: 'https://github.com/olawanlejoel/TwitterUI-clone',
+      'A Python based Twitter bot that posts motivational tweets and automatically responds to users live on Twitter. The bot also sends direct messages and personalised tweets to its followers. ',
+    gitHubLink: 'https://github.com/FelixWaweru/ComplimentBot',
+  },
+  {
+    id: 6,
+    title: 'WikiGPT',
+    description:
+      'This is a Next.JS app that uses the OpenAI API to generate responses using ChatGPT. I developed the app to familiarise myself with Next.JS and OpenAI technologies and it is hosted on Vercel with CI/CD deployments setup for fast feature rollouts.',
+    gitHubLink: 'https://wikigpt.vercel.app/',
   },
 ];
 
