@@ -87,8 +87,8 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-container-link .nav-container-buttons {
-    visibility: hidden !important;
+  .nav-container {
+    display: none !important;
   }
 }
 
@@ -117,10 +117,8 @@ li {
 
 /* Footer */
 hr {
-  border: none;
-  background-color: #9B9C9D;
-  height: 1px;
-  width: 80%;
+  border-top: 1px solid #808080;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -246,7 +244,10 @@ hr {
 .about-container h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-container .flex-about {
@@ -308,7 +309,10 @@ hr {
 .skills-container h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-container .grid-skills {
@@ -353,7 +357,10 @@ hr {
 .projects-container h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects-grid {
@@ -432,7 +439,7 @@ hr {
 .contact-container h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 40px;
 }
 
 .contact-container p {
@@ -440,4 +447,11 @@ hr {
   font-weight: 400;
   margin-bottom: 1rem;
   text-align: center;
+}
+
+.divider {
+  border-top: 1px solid #808080;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
 }
