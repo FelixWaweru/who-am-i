@@ -5,7 +5,7 @@ name: GitHub Pages deploy
 
 on:
   push:
-    branches: [next] # Change to main branch for clean CI/CD
+    branches: [build] # Change to build branch for clean CI/CD
 
 jobs:
   build:
@@ -34,5 +34,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: test # The branch the action will deploy to
+          BRANCH: gh-pages # The branch the action will deploy to
           FOLDER: out # The folder the action will deploy to
