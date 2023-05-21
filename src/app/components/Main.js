@@ -19,28 +19,32 @@ const Main = () => {
         </p>
         <div className="social-icons">
           <a
-            href="https://twitter.com/olawanle_joel"
-            aria-label="Twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="https://github.com/olawanlejoel"
+            href="https://github.com/FelixWaweru"
             aria-label="GitHub"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-github"></i>
+          <Image
+            src="./icons/github.png"
+            alt="GitHub"
+            width={30}
+            height={30}
+            priority
+          />
           </a>
           <a
-            href="https://www.linkedin.com/in/olawanlejoel/"
+            href="https://www.linkedin.com/in/felix-waweru-07a314a5/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-linkedin"></i>
+          <Image
+            src="./icons/linkedin.png"
+            alt="LinkedIn"
+            width={30}
+            height={30}
+            priority
+          />
           </a>
         </div>
       </div>

@@ -4,12 +4,18 @@ dependencies:
   '@fortawesome/fontawesome-svg-core':
     specifier: ^6.4.0
     version: 6.4.0
+  '@fortawesome/free-brands-svg-icons':
+    specifier: ^6.4.0
+    version: 6.4.0
   '@fortawesome/free-solid-svg-icons':
     specifier: ^6.4.0
     version: 6.4.0
   '@fortawesome/react-fontawesome':
     specifier: ^0.2.0
     version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.0)(react@18.2.0)
+  '@vercel/analytics':
+    specifier: ^1.0.1
+    version: 1.0.1
   autoprefixer:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.23)
@@ -105,6 +111,14 @@ packages:
 
   /@fortawesome/fontawesome-svg-core@6.4.0:
     resolution: {integrity: sha512-Bertv8xOiVELz5raB2FlXDPKt+m94MQ3JgDfsVbrqNpLU9+UE2E18GKjLKw+d3XbeYPqg1pzyQKGsrzbw+pPaw==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.4.0
+    dev: false
+
+  /@fortawesome/free-brands-svg-icons@6.4.0:
+    resolution: {integrity: sha512-qvxTCo0FQ5k2N+VCXb/PZQ+QMhqRVM4OORiO6MXdG6bKolIojGU/srQ1ptvKk0JTbRgaJOfL2qMqGvBEZG7Z6g==}
     engines: {node: '>=6'}
     requiresBuild: true
     dependencies:
@@ -382,6 +396,10 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.59.6
       eslint-visitor-keys: 3.4.1
+    dev: false
+
+  /@vercel/analytics@1.0.1:
+    resolution: {integrity: sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==}
     dev: false
 
   /@zeit/schemas@2.29.0:

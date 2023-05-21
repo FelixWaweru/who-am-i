@@ -1,6 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faMagnifyingGlass
+  faPython,
+  faJs,
+  faReact,
+  faAws
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faDatabase,
+  faCode,
+  faNetworkWired,
+  faFlask
 } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
@@ -10,75 +19,51 @@ const Skills = () => {
       <div className="grid-skills">
         <div className="skill-card">
           <FontAwesomeIcon
-            icon={faMagnifyingGlass}
+            icon={faPython}
           />
           <p>Python</p>
         </div>
         <div className="skill-card">
           <FontAwesomeIcon
-            icon={faMagnifyingGlass}
+            icon={faJs}
           />
           <p>JavaScript, TypeScript</p>
         </div>
         <div className="skill-card">
           <FontAwesomeIcon
-            icon={faMagnifyingGlass}
+            icon={faReact}
           />
-          <p>Java</p>
+          <p>React, Next.JS</p>
         </div>
         <div className="skill-card">
           <FontAwesomeIcon
-            icon={faMagnifyingGlass}
-          />
-          <p>Next.JS, React</p>
-        </div>
-        <div className="skill-card">
-          <FontAwesomeIcon
-            icon={faMagnifyingGlass}
+            icon={faFlask}
           />
           <p>Django, Flask</p>
         </div>
         <div className="skill-card">
           <FontAwesomeIcon
-            icon={faMagnifyingGlass}
+            icon={faCode}
           />
           <p>API Development</p>
         </div>
         <div className="skill-card">
           <FontAwesomeIcon
-            icon={faMagnifyingGlass}
+            icon={faAws}
           />
           <p>AWS, GCP, Vercel</p>
         </div>
         <div className="skill-card">
           <FontAwesomeIcon
-            icon={faMagnifyingGlass}
+            icon={faDatabase}
           />
-          <p>DynamoDB, MongoDB, MySQL, SQLite</p>
+          <p>Databases: DynamoDB, MySQL</p>
         </div>
         <div className="skill-card">
           <FontAwesomeIcon
-            icon={faMagnifyingGlass}
+            icon={faNetworkWired}
           />
-          <p>GraphQL</p>
-        </div>
-        <div className="skill-card">
-          <FontAwesomeIcon
-            icon={faMagnifyingGlass}
-          />
-          <p>Markdown, MDX</p>
-        </div>
-        <div className="skill-card">
-          <FontAwesomeIcon
-            icon={faMagnifyingGlass}
-          />
-          <p>Node</p>
-        </div>
-        <div className="skill-card">
-          <FontAwesomeIcon
-            icon={faMagnifyingGlass}
-          />
-          <p>Svelte</p>
+          <p>Object Relational Mapping</p>
         </div>
       </div>
     </div>

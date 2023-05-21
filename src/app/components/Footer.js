@@ -11,32 +11,16 @@ const Footer = () => {
         </p>
         <div className="social_icons">
           <a
-            href="https://twitter.com/whyweru"
-            aria-label="Twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          <Image
-            src="/next.svg"
-            alt="Twitter"
-            className="dark:invert"
-            width={50}
-            height={50}
-            priority
-          />
-          </a>
-          <a
             href="https://github.com/FelixWaweru"
             aria-label="GitHub"
             target="_blank"
             rel="noopener noreferrer"
           >
           <Image
-            src="/next.svg"
-            alt="Twitter"
-            className="dark:invert"
-            width={50}
-            height={50}
+            src="./icons/github.png"
+            alt="GitHub"
+            width={30}
+            height={30}
             priority
           />
           </a>
@@ -47,11 +31,10 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
           <Image
-            src="/next.svg"
-            alt="Twitter"
-            className="dark:invert"
-            width={50}
-            height={50}
+            src="./icons/linkedin.png"
+            alt="LinkedIn"
+            width={30}
+            height={30}
             priority
           />
           </a>

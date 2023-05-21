@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFolder
 } from "@fortawesome/free-solid-svg-icons";
+import Image from 'next/image';
+import Link from "next/link";
 
 const getProjects = async () => {
     // Fetch data from local API route
@@ -40,7 +42,7 @@ const Projects = async () => {
             id: 4,
             title: 'MHENGA',
             description:
-            'In celebration of Black History Month for the year 2021, I developed a project that would allow me to share part of my African culture with more people online. Black History Month being an annual celebration remembering AfricanAmerican history and the African diaspora, I decided to create a Twitter bot that shares Swahili proverbs and their translations as tweets. In the spirit of staying authentic to my roots, I chose to create the bot using a Swahili programming language called Swahili-lang and a little bit of JavaScript to help with the tweet posting.',
+            'I developed a Twitter bot that shares Swahili proverbs and their translations as tweets. In the spirit of staying authentic to my roots, I chose to create the bot using a Swahili programming language called Swahili-lang and a little bit of JavaScript to help with the tweet posting.',
             gitHubLink: 'https://github.com/FelixWaweru/MHENGA',
         },
         {
@@ -65,14 +67,18 @@ const Projects = async () => {
         <div className="projects-grid">
             {projectData && projectData.map((project) => (
             <div className="project-card" key={project.id}>
-                <div className="project-header">
-                    <FontAwesomeIcon
-                        icon={faFolder}
-                        fontSize={35}
-                        color="#0070F3"
+                <Link href={project.gitHubLink} target="_blank">
+                    <div className="project-header">
+                    <Image
+                        src="./icons/github.png"
+                        alt="Github"
+                        width={50}
+                        height={50}
+                        priority
                     />
-                </div>
-                <h3>{project.title}</h3>
+                    </div>
+                    <h3>{project.title}</h3>
+                </Link>
                 <p>{project.description}</p>
             </div>
             ))
