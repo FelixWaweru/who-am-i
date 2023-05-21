@@ -2,7 +2,7 @@
 
 [![GitHub Pages deploy](https://github.com/FelixWaweru/who-am-i/actions/workflows/gh-pages-build.yml/badge.svg)](https://github.com/FelixWaweru/who-am-i/actions/workflows/gh-pages-build.yml)
 
-Welcome to my personal Portfolio.
+Welcome to my personal portfolio.
 
 ## Links
 - **Vercel** : https://www.felixwaweru.dev/
