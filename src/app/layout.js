@@ -5,7 +5,7 @@ config.autoAddCss = false;
 
 export const metadata = {
   title: 'Felix Waweru',
-  description: 'Developer portfolio',
+  description: 'I am a Software Engineer with a keen passion for computing technologies. I have over 4 years professional experience using OOP programming(Python, JavaScript, C++, Java) along with their frameworks.',
 }
 
 export default function RootLayout({ children }) {

@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Divider from './components/Divider';
 import Blog from './components/Blog';
+import Hobbies from './components/Hobbies';
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
           <Projects />
             <Divider/>
           <Blog/>
+            <Divider/>
+          <Hobbies/>
             <Divider/>
           <Contact />
         </div>

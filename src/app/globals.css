@@ -22,8 +22,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Montserrat-Light.ttf");
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   width: 100%;
@@ -61,6 +66,9 @@ li {
 
 /* Navbar */
 .nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   display: flex;
   padding: 0 0;
   width: 100%;
@@ -70,7 +78,7 @@ li {
   padding-left: 96px;
   padding-right: 96px;
   color: rgb(var(--foreground-rgb));
-  background: #000000
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgb(0, 0, 0));
 }
 
 .nav-container-link {
@@ -95,10 +103,12 @@ li {
 .nav-container .logo {
   font-size: 1.2rem;
   font-weight: bold;
+  display: block;
 }
 
 .cta-btn {
   color: #FFFFFF;
+  background-color: #000000;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   font-weight: 400;
@@ -106,15 +116,15 @@ li {
   cursor: pointer;
   display: inline-block;
   border: 1px solid;
-  border-image: linear-gradient(to right, #0070F3, #e81224);
+  border-image: linear-gradient(to right, #0070F3, #9D00FF);
   border-image-slice: 1;
 }
 
 .cta-btn:hover {
   border: 1px solid;
-  border-image: linear-gradient(to bottom, #0070F3, #e81224);
+  border-image: linear-gradient(to bottom, #0070F3, #9D00FF);
   border-image-slice: 1;
-  background: linear-gradient(to bottom, rgba(0, 112, 243, 0.3), rgba(232, 18, 36, 0.3));;
+  background: linear-gradient(to bottom, rgba(0, 112, 243, 0.3), rgb(157, 0, 255, 0.3));;
 }
 
 /* Footer */
@@ -196,7 +206,7 @@ hr {
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
-  background: linear-gradient(to left, #0070F3, #e81224);
+  background: linear-gradient(to left, #0070F3, #9D00FF);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,13 +239,13 @@ hr {
 }
 
 .main-container .main-text h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .main-container .main-text p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
@@ -257,6 +267,15 @@ hr {
   color: #DADADB;
 }
 
+.main-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* About */
 .about-container {
   padding: 2rem 0;
@@ -273,7 +292,6 @@ hr {
 
 .about-container .flex-about {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 0 2rem;
 }
@@ -301,7 +319,7 @@ hr {
   transition: all 0.5s ease-in-out;
   cursor: cell;
   border: 2px solid;
-  border-image: linear-gradient(to right, #0070F3, #e81224);
+  border-image: linear-gradient(to right, #0070F3, #9D00FF);
   border-image-slice: 1;
 }
 
@@ -361,7 +379,7 @@ hr {
   transition: all 0.5s ease-in-out;
   cursor: context-menu;
   border: 1px solid;
-  border-image: linear-gradient(to right, #0070F3, #e81224);
+  border-image: linear-gradient(to right, #0070F3, #9D00FF);
   border-image-slice: 1;
 }
 
@@ -371,7 +389,7 @@ hr {
 
 .skills-container .grid-skills .skill-card:hover {
   border: 1px solid;
-  border-image: linear-gradient(to bottom, #0070F3, #e81224);
+  border-image: linear-gradient(to bottom, #0070F3, #9D00FF);
   border-image-slice: 1;
 }
 
@@ -402,7 +420,7 @@ hr {
 }
 
 .project-card {
-  border: 1px solid #0070F3;
+  border: 1px solid #9D00FF;
   padding: 20px;
   border-radius: 5px;
 }
@@ -434,15 +452,10 @@ hr {
   color: #0070F3;
 }
 
-.project-card .project h3 {
+.project-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
-}
-
-.project-card .project p {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #b3b3b3;
+  color: #0070F3;
 }
 
 /* Blog */
@@ -461,14 +474,14 @@ hr {
 
 .blogs-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
 .blog-card {
   padding: 20px;
   border: 1px solid;
-  border-image: linear-gradient(to left, #0070F3, #e81224);
+  border-image: linear-gradient(to left, #0070F3, #9D00FF);
   border-image-slice: 1;
 }
 
@@ -545,4 +558,12 @@ hr {
   margin-top: 40px;
   margin-bottom: 40px;
   width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.highlighted-text{
+  color: #9D00FF;
 }
