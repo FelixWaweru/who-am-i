@@ -5,8 +5,8 @@
 Welcome to my personal Portfolio.
 
 ## Links
-- **who-am-i** : https://felixwaweru.github.io/who-am-i
-- **felixwaweru.dev** : https://www.felixwaweru.dev/
+- **Vercel** : https://www.felixwaweru.dev/
+- **GitHub Pages** : https://felixwaweru.github.io/who-am-i
 
 ## Setup
 - To build the project, run:

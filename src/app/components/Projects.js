@@ -70,7 +70,7 @@ const Projects = async () => {
                 <Link href={project.gitHubLink} target="_blank">
                     <div className="project-header">
                     <Image
-                        src="./github.png"
+                        src="./icons/github.png"
                         alt="Github"
                         width={50}
                         height={50}

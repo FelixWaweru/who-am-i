@@ -17,7 +17,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
           <Image
-            src="./github.png"
+            src="./icons/github.png"
             alt="GitHub"
             width={30}
             height={30}
@@ -31,7 +31,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
           <Image
-            src="./linkedin.png"
+            src="./icons/linkedin.png"
             alt="LinkedIn"
             width={30}
             height={30}
