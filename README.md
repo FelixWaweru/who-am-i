@@ -8,6 +8,12 @@ Welcome to my personal Portfolio.
 - **Vercel** : https://www.felixwaweru.dev/
 - **GitHub Pages** : https://felixwaweru.github.io/who-am-i
 
+## Stack
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Deployment**: [Vercel](https://vercel.com) & [Github Pages](https://pages.github.com/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
+
 ## Setup
 - To build the project, run:
 ``` bash
