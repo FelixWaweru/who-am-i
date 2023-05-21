@@ -90,13 +90,20 @@ li {
 .nav-container-buttons {
   width: 40%;
   display: flex;
-  justify-content: space-between;
-  align-items: right;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-nav {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .nav-container {
-    display: none !important;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
