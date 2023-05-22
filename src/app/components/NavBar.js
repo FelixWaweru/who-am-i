@@ -1,14 +1,10 @@
-// components/Navbar.jsx
-
-import Link from "next/link";
-
 const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="logo nav-container-link">
-        <Link href="/">
+        <a href="/">
           Felix Waweru
-        </Link>
+        </a>
       </div>
 
       <div className="nav-container-buttons">
