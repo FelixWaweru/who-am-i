@@ -13,7 +13,7 @@ const About = () => {
             I have experience using PostgreSQL, Spring Boot, and Drools, which gives me an advantage. In addition to my technical skills, I am adept at client consultation, writing effective and clean code, and collaborating effectively with other developers.
           </p>
           <p>
-            I am a passionate software developer and consider myself a valuable asset with a demonstrated 'big picture' perspective. I also have the capacity to work at a detailed level across a wide range of technologies and methodologies.
+            I am a passionate software developer and consider myself a valuable asset with a demonstrated "big picture" perspective. I also have the capacity to work at a detailed level across a wide range of technologies and methodologies.
           </p>
         </div>
         <div className="about-img">
