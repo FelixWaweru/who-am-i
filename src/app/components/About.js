@@ -7,17 +7,13 @@ const About = () => {
       <div className="flex-about">
         <div className="about-text">
           <p>
-            I am a Software Engineer with a keen passion for computing technologies. I have over 4 years professional experience
-            using OOP programming(Python, JavaScript, C++, Java) along with their frameworks.
+            I am a highly skilled Software Developer and Engineer with four years of experience in building large-scale web services, caching layers, performance tuning, debugging, and development. I have a strong background in Java and Python and a proven track record in software architecture. I understand web technologies at the protocol level up through the stack.
           </p>
           <p>
-            Over the years, the industry has given me a rewarding career and exposure in understanding technical systems. I have
-            also worked on setting up and launching production systems on established frameworks as well as sorting and manipulating
-            big data sources.
+            I have experience using PostgreSQL, Spring Boot, and Drools, which gives me an advantage. In addition to my technical skills, I am adept at client consultation, writing effective and clean code, and collaborating effectively with other developers.
           </p>
           <p>
-            I have also worked closely with managing Linux servers for large scale production environments. Alongside the technical
-            skills, I have also been able to learn project management skills firsthand by working and planning Agile project plans.
+            I am a passionate software developer and consider myself a valuable asset with a demonstrated 'big picture' perspective. I also have the capacity to work at a detailed level across a wide range of technologies and methodologies.
           </p>
         </div>
         <div className="about-img">
