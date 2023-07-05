@@ -7,10 +7,10 @@ const About = () => {
       <div className="flex-about">
         <div className="about-text">
           <p>
-            I am a highly skilled Software Developer and Engineer with four years of experience in building large-scale web services, caching layers, performance tuning, debugging, and development. I have a strong background in Java and Python and a proven track record in software architecture. I understand web technologies at the protocol level up through the stack.
+            I am a highly skilled Software Developer and Engineer with four years of experience in building large-scale web services, caching layers, performance tuning, debugging, and development. I have a strong background in Python, JavaScript and Java with a proven track record in software architecture. I understand web technologies at the protocol level up through the stack.
           </p>
           <p>
-            I have experience using PostgreSQL, Spring Boot, and Drools, which gives me an advantage. In addition to my technical skills, I am adept at client consultation, writing effective and clean code, and collaborating effectively with other developers.
+            I have experience using Django, Flask, React and ExpressJS, which gives me an advantage. In addition to my technical skills, I am adept at client consultation, writing effective and clean code, and collaborating effectively with other developers.
           </p>
           <p>
             I am a passionate software developer and consider myself a valuable asset with a demonstrated &#34;big picture&#34; perspective. I also have the capacity to work at a detailed level across a wide range of technologies and methodologies.
