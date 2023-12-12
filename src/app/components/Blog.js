@@ -29,6 +29,13 @@ const Blog = async () => {
             description:
             '',
             blogLink: 'https://whyweru.medium.com/celebrating-black-history-month-with-a-swahili-programming-language-6e30d9fbebda',
+        },
+        {
+            id: 3,
+            title: 'Growth of AI',
+            description:
+            '',
+            blogLink: 'https://whyweru.medium.com/growth-of-ai-d92476f708b8',
         }
     ];
 
